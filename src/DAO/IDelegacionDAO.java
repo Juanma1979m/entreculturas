@@ -1,9 +1,9 @@
 package DAO;
 
-import p5.Delegacion;
+import p5.Delegaciones;
 import javax.xml.bind.JAXBException;
 
 public interface IDelegacionDAO {
-    public void Guardar(Delegacion miDelegacion) throws JAXBException;
-    public Delegacion ListarDelegaciones() throws JAXBException;
+    public void Guardar(Delegaciones delegaciones) throws JAXBException;
+    public Delegaciones ListarDelegaciones() throws JAXBException;
 }

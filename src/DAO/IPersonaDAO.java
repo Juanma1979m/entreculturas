@@ -1,9 +1,9 @@
 package DAO;
 
-import p5.Persona;
+import p5.Personas;
 import javax.xml.bind.JAXBException;
 
 public interface IPersonaDAO {
-    public void Guardar(Persona miPersona) throws JAXBException;
-    public Persona ListarPersonas() throws JAXBException;
+    public void Guardar(Personas personas) throws JAXBException;
+    public Personas ListarPersonas() throws JAXBException;
 }

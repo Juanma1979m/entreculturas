@@ -39,5 +39,12 @@ public class Delegacion {
         email = miEmail;
         personal = new ArrayList<Equipo>();
     }
-
+    
+    public int getId() {
+        return id;
+    }
+    
+    public String getNombre() {
+        return nombre;
+    }
 }
