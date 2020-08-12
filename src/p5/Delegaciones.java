@@ -2,22 +2,25 @@ package p5;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(name = "Delegaciones")
 public class Delegaciones {
-    private List<Delegacion> delegaciones;
+    private List<Delegacion> listaDelegaciones;
     
     public List<Delegacion> getDelegaciones() {
-        return delegaciones;
+        return listaDelegaciones;
     }
-    
+     @XmlElement(name = "Delegacion")
     public void setDelegaciones(List<Delegacion> delegaciones) {
-        this.delegaciones = delegaciones;
+        this.listaDelegaciones = listaDelegaciones;
     }
     
-    public void addDelegacion(Delegacion delegacion) {
-        if(this.delegaciones == null) {
-            this.delegaciones = new ArrayList<Delegacion>();
+    public void addDelegacion(Delegacion delegaciones) {
+        if(this.listaDelegaciones == null) {
+            this.listaDelegaciones = new ArrayList<Delegacion>();
         }
-        this.delegaciones.add(delegacion);
+        this.listaDelegaciones.add(delegaciones);
     }
 }

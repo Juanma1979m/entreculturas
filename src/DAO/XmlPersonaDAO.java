@@ -37,7 +37,7 @@ public class XmlPersonaDAO implements IPersonaDAO {
         for(Persona persona : personas.getPersonas()) {
             System.out.println();
             System.out.println("Dni: \t" + persona.getDni());
-            System.out.println("Nombre: \t" + persona.getNombre());
+            System.out.println("Nombre: \t" + persona.getNombres());
             System.out.println("Apellidos: \t" + persona.getApellidos());
         }
         return null;

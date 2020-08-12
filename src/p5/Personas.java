@@ -2,22 +2,26 @@ package p5;
 
 import java.util.ArrayList;
 import java.util.List;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
-public class Personas {
-    private List<Persona> personas;
-    
-    public List<Persona> getPersonas() {
-        return personas;
+
+
+@XmlRootElement(name = "personas")
+public class Personas{		
+    List<Persona> listaPersonas;
+	   		
+    public List<Persona>getPersonas() {
+        return listaPersonas;
     }
-    
-    public void setPersonas(List<Persona> personas) {
-        this.personas = personas;
+    @XmlElement(name = "persona")
+    public void setPersonas (List<Persona> listaPersonas) {
+        this.listaPersonas = listaPersonas;
     }
-    
-    public void addPersonas(Persona persona) {
-        if(this.personas == null) {
-            this.personas = new ArrayList<Persona>();
+    public void add(Persona personas) {	
+        if (this.listaPersonas == null) {
+            this.listaPersonas = new ArrayList<Persona>();
         }
-        this.personas.add(persona);
+        this.listaPersonas.add(personas);
     }
 }
