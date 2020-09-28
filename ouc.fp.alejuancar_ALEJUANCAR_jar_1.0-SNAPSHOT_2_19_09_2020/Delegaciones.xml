@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Delegaciones>
+    <Delegacion>
+        <id>02-MADR</id>
+        <nombre>Madrid Norte</nombre>
+        <direccion>Plaza Mayor Nº1</direccion>
+        <cp>28701</cp>
+        <ciudad>Madrid</ciudad>
+        <provincia>Madrid</provincia>
+        <pais>España</pais>
+        <telefono>123458798</telefono>
+        <email>madridnorte@ong.es</email>
+    </Delegacion>
+</Delegaciones>

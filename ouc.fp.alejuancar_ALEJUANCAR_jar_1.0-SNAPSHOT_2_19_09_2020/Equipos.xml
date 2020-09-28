@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Equipos>
+    <Equipo>
+        <dni>23456789D</dni>
+        <Nombre>Antonio</Nombre>
+        <Apellidos>Pérez</Apellidos>
+        <Edad>40</Edad>
+        <Direccion>Calle La Sal Nº1</Direccion>
+        <Provincia>Madrid</Provincia>
+        <Pais>España</Pais>
+        <Telefono>415236987</Telefono>
+        <Email>antonio@ong.es</Email>
+        <Id_Equipo>01-CENT</Id_Equipo>
+    </Equipo>
+    <Equipo>
+        <dni>98765432M</dni>
+        <Nombre>Elena</Nombre>
+        <Apellidos>Martín Álvarez</Apellidos>
+        <Edad>33</Edad>
+        <Direccion>Calle Las Palmeras Nº3</Direccion>
+        <Provincia>Madrid</Provincia>
+        <Pais>España</Pais>
+        <Telefono>123547896</Telefono>
+        <Email>elena@ong.es</Email>
+        <Id_Equipo>02-CENT</Id_Equipo>
+    </Equipo>
+    <Equipo>
+        <dni>14725896P</dni>
+        <Nombre>Alvaro</Nombre>
+        <Apellidos>Peña Lorenza</Apellidos>
+        <Edad>41</Edad>
+        <Direccion>Calle El Sol Nº4</Direccion>
+        <Provincia>Madrid</Provincia>
+        <Pais>Madrid</Pais>
+        <Telefono>231456987</Telefono>
+        <Email>alvaro@ong.es</Email>
+        <Id_Equipo>03-CENT</Id_Equipo>
+    </Equipo>
+    <Equipo>
+        <dni>36985214H</dni>
+        <Nombre>Eva</Nombre>
+        <Apellidos>Sanz Pérez</Apellidos>
+        <Edad>21</Edad>
+        <Direccion>Calle La Plata Nº5</Direccion>
+        <Provincia>Madrid</Provincia>
+        <Pais>Madrid</Pais>
+        <Telefono>452897412</Telefono>
+        <Email>eva@ong.es</Email>
+        <Id_Equipo>04-CENT</Id_Equipo>
+    </Equipo>
+    <Equipo>
+        <dni>45678912S</dni>
+        <Nombre>Pedro</Nombre>
+        <Apellidos>Gómez Torres</Apellidos>
+        <Edad>42</Edad>
+        <Direccion>Calle La Miel Nº7</Direccion>
+        <Provincia>Madrid</Provincia>
+        <Pais>España</Pais>
+        <Telefono>102365874</Telefono>
+        <Email>pedro@ong.es</Email>
+        <Id_Equipo>05-CENT</Id_Equipo>
+    </Equipo>
+    <Equipo>
+        <Edad>0</Edad>
+        <Delegacion>
+            <Delegacion>
+                <id>02-MADR</id>
+                <nombre>Madrid Norte</nombre>
+                <direccion>Plaza Mayor Nº1</direccion>
+                <cp>28701</cp>
+                <ciudad>Madrid</ciudad>
+                <provincia>Madrid</provincia>
+                <pais>España</pais>
+                <telefono>123458798</telefono>
+                <email>madridnorte@ong.es</email>
+            </Delegacion>
+        </Delegacion>
+    </Equipo>
+</Equipos>
